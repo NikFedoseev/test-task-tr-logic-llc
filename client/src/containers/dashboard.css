@@ -1,0 +1,64 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #eef2f5;
+  width: 549px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+}
+
+.dashboard-content {
+  display: flex;
+  height: 238px;
+}
+
+.dashboard-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.dashboard-user-photo {
+  display: flex;
+  align-items: center;
+  width: 128px;
+  height: 128px;
+  background-image: url('../assets/userIcon.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.dashboard-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-username {
+  font-size: 28px;
+  margin-top: 47px;
+  margin-bottom: 15px;
+}
+
+.dashboard-info-basic div {
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+.dashboard-footer {
+  height: 78px;
+  background-color: #11ac63;
+  border-radius: 0 0 6px 6px;
+}
+
+.dashboard-logout-button {
+  display: block;
+  height: 100%;
+  text-align: center;
+  line-height: 78px;
+  color: #eef2f5;
+  text-decoration: none;
+  font-size: 22px;
+  cursor: pointer;
+}

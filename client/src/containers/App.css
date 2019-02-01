@@ -1,0 +1,44 @@
+.App {
+  min-height: 100%;
+  background-color:#384556;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-buttons {
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.authenticate-button {
+  border: 2px solid #e8ecef;
+  border-radius: 4px;
+  width: 100px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.register-button {
+  border: 2px solid #e8ecef;
+  border-radius: 4px;
+  width: 100px;
+  height: 50px;
+}
+
+.authenticate, .register {
+  text-decoration: none;
+  color: #e8ecef;
+  display: block;
+  line-height: 50px;
+  text-align: center;
+}
+
+.authenticate-button:hover, .register-button:hover{
+  background-color: #e8ecef;
+}
+
+.authenticate-button:hover .authenticate,  .register-button:hover .register{
+  color: #384556;
+}
