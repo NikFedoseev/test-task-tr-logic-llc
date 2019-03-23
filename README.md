@@ -1,1 +1,1 @@
-[Demo](196411.simplecloud.ru)
+[Demo](http://196411.simplecloud.ru)
